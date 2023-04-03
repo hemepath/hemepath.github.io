@@ -24,8 +24,8 @@
     - title: Blasts
       id: 3
       choices:
-        - Are not present
-        - Are increased
+        - are not present
+        - are increased
 
     - title: Lymphocytes are
       id: 4
