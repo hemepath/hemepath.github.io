@@ -1,5 +1,5 @@
---- 
-title: Home 
+---
+layout: default
 ---
 <!DOCTYPE html>
 <html>
@@ -12,7 +12,7 @@ title: Home
 
 <body>
     <div class="container">
-        <h1>The App for Doctor</h1>
+        {% comment %} <h1>The App for Doctor</h1> {% endcomment %}
         {% for paragraph in site.data.paragraphs %}
         <h2>{{paragraph.name}}</h2>
         <form action="#" method="post">
