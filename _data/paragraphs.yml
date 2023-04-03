@@ -1,24 +1,24 @@
-- name: Red Cells
+- name: Peripheral blood film comment
   id : 0
   fields:
     - title: The red cells
       id : 0
       choices:
-        - Are normochromic and normocytic with no significant aniscopoilkilocytosis
-        - Show coarse basophilic stippling and polychromasia
-        - Show significant aniscopoilkilocytosis
-        - Show non specific aniscopoilkilocytosis
+        - are normochromic and normocytic with no significant aniscopoilkilocytosis
+        - show coarse basophilic stippling and polychromasia
+        - show significant aniscopoilkilocytosis
+        - show non specific aniscopoilkilocytosis
     - title: The platelets are
       id: 1
       choices:
-        - Unremarkable
-        - Have appropriate granuloation
-        - Non dysplastic
+        - unremarkable
+        - have appropriate granulation
+        - non-dysplastic
 
     - title: Neutrophils are
       id: 2
       choices:
-        - Hypogranular with bilobed nucleus
+        - hypogranular with bilobed nucleus
         - Dysplastic with pelgroid forms
         - Are well granulated with no dysplastic features
     - title: Blasts
@@ -34,7 +34,7 @@
         - unremarkable
 
 
-- name: Bone Marrow Aspirate
+- name: Bone Marrow Aspirate Comment
   id: 1
   fields:
     - title: The red cells
@@ -44,3 +44,11 @@
         - Show coarse basophilic stippling and polychromasia
         - Show significant aniscopoilkilocytosis
         - Show non specific aniscopoilkilocytosis
+        
+ - name: Bone Marrow Biopsy Comment
+    id: 2
+    fields:
+      - title: The red cells
+        id : 0
+        choices:
+            - Are normochromic and normocytic with no significant aniscopoilkilocytosis
