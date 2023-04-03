@@ -45,7 +45,7 @@
         - Show significant aniscopoilkilocytosis
         - Show non specific aniscopoilkilocytosis
         
- - name: Bone Marrow Biopsy Comment
+- name: Bone Marrow Biopsy Comment
   id: 2
   fields:
     - title: The red cells
