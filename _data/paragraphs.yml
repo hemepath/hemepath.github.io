@@ -1,0 +1,46 @@
+- name: Red Cells
+  id : 0
+  fields:
+    - title: The red cells
+      id : 0
+      choices:
+        - Are normochromic and normocytic with no significant aniscopoilkilocytosis
+        - Show coarse basophilic stippling and polychromasia
+        - Show significant aniscopoilkilocytosis
+        - Show non specific aniscopoilkilocytosis
+    - title: The platelets are
+      id: 1
+      choices:
+        - Unremarkable
+        - Have appropriate granuloation
+        - Non dysplastic
+
+    - title: Neutrophils are
+      id: 2
+      choices:
+        - Hypogranular with bilobed nucleus
+        - Dysplastic with pelgroid forms
+        - Are well granulated with no dysplastic features
+    - title: Blasts
+      id: 3
+      choices:
+        - Are not present
+        - Are increased
+
+    - title: Lymphocytes are
+      id: 4
+      choices:
+        - Pleomorphic with mature chromatin
+        - unremarkable
+
+
+- name: Bone Marrow Aspirate
+  id: 1
+  fields:
+    - title: The red cells
+      id : 0
+      choices:
+        - Are normochromic and normocytic with no significant aniscopoilkilocytosis
+        - Show coarse basophilic stippling and polychromasia
+        - Show significant aniscopoilkilocytosis
+        - Show non specific aniscopoilkilocytosis
