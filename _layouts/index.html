@@ -14,7 +14,7 @@ layout: default
     <div class="container">
         {% comment %} <h1>The App for Doctor</h1> {% endcomment %}
         {% for paragraph in site.data.paragraphs %}
-        <h2>{{paragraph.name}}</h2>
+        <h2 class="mt-4">{{paragraph.name}}</h2>
         <form action="#" method="post">
 
             {% for comment in paragraph.fields %}
@@ -32,10 +32,8 @@ layout: default
                 <label for="textarea{{paragraph.id}}">The result for {{paragraph.name}}</label>
                 <textarea class="form-control" id="textarea{{paragraph.id}}" rows="3"></textarea>
             </div>
+            <button type="button" onclick="copy('#textarea{{paragraph.id}}')" class="btn btn-primary">Copy to Clipboard</button>
         </form>
-
-
-        
         {% endfor %}
     </div>
 
@@ -68,6 +66,14 @@ layout: default
                 });
             }
         );
+    
+        function copy(element){
+            var $temp = $("<input>");
+            $("body").append($temp);
+            $temp.val($($(element)[0]).val()).select();
+            document.execCommand("copy");
+            $temp.remove();
+          }
     </script>
 </body>
 
