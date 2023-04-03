@@ -46,9 +46,10 @@
         - Show non specific aniscopoilkilocytosis
         
  - name: Bone Marrow Biopsy Comment
-    id: 2
-    fields:
-      - title: The red cells
-        id : 0
-        choices:
-            - Are normochromic and normocytic with no significant aniscopoilkilocytosis
+  id: 2
+  fields:
+    - title: The red cells
+      id : 0
+      choices:
+        - Are normochromic and normocytic with no significant aniscopoilkilocytosis
+
