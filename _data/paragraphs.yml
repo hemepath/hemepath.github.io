@@ -33,7 +33,6 @@
         - Pleomorphic with mature chromatin
         - unremarkable
 
-
 - name: Bone Marrow Aspirate
   id: 1
   fields:
@@ -65,6 +64,7 @@
         - reduced at
         - increased at
         - non-contributory
+        
 - name: Bone Marrow Aspirate
   id: 1
   fields:
