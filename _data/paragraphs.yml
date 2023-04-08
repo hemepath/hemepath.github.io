@@ -72,15 +72,14 @@
     - title: The cellularity is
       id : 0
       choices:
-        - %, which is - for age       
-   
- - name: Bone Marrow Aspirate
+        - which is 
+- name: Bone Marrow Aspirate
   id: 1
   fields:
     - title: Blasts constitute
       id : 0
       choices:
-        - % of the differential
+        - of the differential
            
         
 - name: Bone Marrow Aspirate
@@ -92,7 +91,7 @@
         - present at various level of maturation with no dysplasia
         - present at various level of maturation with pelgroid changes in the neutrophils
         - markedly reduced
- - name: Bone Marrow Aspirate
+- name: Bone Marrow Aspirate
   id: 1
   fields:
     - title: Erythropoiesis is
@@ -102,7 +101,7 @@
         - normoblastic with dysplastic features including nuclear budding, vacuolization and bilobed nuclei
         - megaloblastic with no dysplastic features   
         
- - name: Bone Marrow Aspirate
+- name: Bone Marrow Aspirate
   id: 1
   fields:
     - title: Megkaryocytes are
@@ -112,7 +111,7 @@
         - increased
         - reduced  
         
- - name: Bone Marrow Aspirate
+- name: Bone Marrow Aspirate
   id: 1
   fields:
     - title: Megkaryocytes are
