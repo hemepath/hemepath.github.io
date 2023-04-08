@@ -48,7 +48,7 @@
   id: 1
   fields:
     - title: and of
-      id : 0
+      id : 1
       choices:
         - excellent quality for interpretation
         - good quality for interpretation
@@ -59,7 +59,7 @@
   id: 1
   fields:
     - title: The M:E ratio is
-      id : 0
+      id : 2
       choices:
         - normal at
         - reduced at
@@ -70,14 +70,14 @@
   id: 1
   fields:
     - title: The cellularity is
-      id : 0
+      id : 3
       choices:
         - which is 
 - name: Bone Marrow Aspirate
   id: 1
   fields:
     - title: Blasts constitute
-      id : 0
+      id : 4
       choices:
         - of the differential
            
@@ -86,7 +86,7 @@
   id: 1
   fields:
     - title: Granulopoiesis is
-      id : 0
+      id : 5
       choices:
         - present at various level of maturation with no dysplasia
         - present at various level of maturation with pelgroid changes in the neutrophils
@@ -95,7 +95,7 @@
   id: 1
   fields:
     - title: Erythropoiesis is
-      id : 0
+      id : 6
       choices:
         - normoblastic with no dysplastic features
         - normoblastic with dysplastic features including nuclear budding, vacuolization and bilobed nuclei
@@ -105,7 +105,7 @@
   id: 1
   fields:
     - title: Megkaryocytes are
-      id : 0
+      id : 7
       choices:
         - normal in number and non-dysplastic.
         - increased
@@ -115,7 +115,7 @@
   id: 1
   fields:
     - title: Megkaryocytes are
-      id : 0
+      id : 8
       choices:
         - normal in number and non-dysplastic.
         - increased
