@@ -44,9 +44,6 @@
         - has few particles
         - is aparticulate
         
-- name: Bone Marrow Aspirate
-  id: 1
-  fields:
     - title: and of
       id : 1
       choices:
@@ -54,10 +51,7 @@
         - good quality for interpretation
         - adequate quality for interpretation
         - poor quality for interpretation
-        
-- name: Bone Marrow Aspirate
-  id: 1
-  fields:
+
     - title: The M:E ratio is
       id : 2
       choices:
@@ -65,35 +59,25 @@
         - reduced at
         - increased at
         - non-contributory
-        
-- name: Bone Marrow Aspirate
-  id: 1
-  fields:
+
     - title: The cellularity is
       id : 3
       choices:
         - which is 
-- name: Bone Marrow Aspirate
-  id: 1
-  fields:
+
     - title: Blasts constitute
       id : 4
       choices:
         - of the differential
            
         
-- name: Bone Marrow Aspirate
-  id: 1
-  fields:
     - title: Granulopoiesis is
       id : 5
       choices:
         - present at various level of maturation with no dysplasia
         - present at various level of maturation with pelgroid changes in the neutrophils
         - markedly reduced
-- name: Bone Marrow Aspirate
-  id: 1
-  fields:
+
     - title: Erythropoiesis is
       id : 6
       choices:
@@ -101,9 +85,7 @@
         - normoblastic with dysplastic features including nuclear budding, vacuolization and bilobed nuclei
         - megaloblastic with no dysplastic features   
         
-- name: Bone Marrow Aspirate
-  id: 1
-  fields:
+
     - title: Megkaryocytes are
       id : 7
       choices:
@@ -111,9 +93,7 @@
         - increased
         - reduced  
         
-- name: Bone Marrow Aspirate
-  id: 1
-  fields:
+
     - title: Megkaryocytes are
       id : 8
       choices:
